@@ -28,7 +28,7 @@ st.markdown("""
 """, unsafe_allow_html=True)
 
 # ======= Cabeçalho / Logo =======
-st.image("https://i.imgur.com/uZB3rU7.png", width=80)  # Substitua por seu próprio logo
+st.image("https://imgur.com/Wg4DkES", width=80)  # Substitua por seu próprio logo
 st.markdown("<h2 style='text-align: center;'>🧶 Calculadora de TEX</h2>", unsafe_allow_html=True)
 st.markdown("<p style='text-align: center; color: gray;'>Descubra o TEX ideal do seu fio de crochê ou tricô em segundos!</p>", unsafe_allow_html=True)
 
