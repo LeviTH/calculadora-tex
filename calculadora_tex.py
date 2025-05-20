@@ -37,11 +37,11 @@ st.markdown("---")
 col1, col2 = st.columns(2)
 
 with col1:
-    peso = st.number_input("🔢 Peso do fio", min_value=0.0, step=10.0)
+    peso = st.number_input("🔢 Peso do fio", min_value=0.0, step=10.0, format="%.1f")
     unidade_peso = st.selectbox("Unidade do peso", ["Gramas (g)", "Onças (oz)"])
 
 with col2:
-    comprimento = st.number_input("📏 Comprimento do fio", min_value=0.0, step=10.0)
+    comprimento = st.number_input("📏 Comprimento do fio", min_value=0.0, step=10.0, format="%.1f")
     unidade_comp = st.selectbox("Unidade do comprimento", ["Metros (m)", "Jardas (yd)"])
 
 # ======= Funções =======
